@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnNativeClick"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Native Toast"
+                android:textAllCaps="false"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnSuccessClick"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Success Toast"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/btnInfoClick"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Info Toast"
+                android:textAllCaps="false"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnWarningClick"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Warning Toast"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/btnErrorClick"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Error Toast"
+                android:textAllCaps="false"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnCustomClick"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Custom Toast"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

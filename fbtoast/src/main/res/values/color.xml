@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fbtoast_white">#FFFFFF</color>
+    <color name="success_color">#4CAF50</color>
+    <color name="info_color">#5060BA</color>
+    <color name="warn_color">#FDAF17</color>
+    <color name="error_color">#D92727</color>
+    <color name="native_color">#656565</color>
+</resources>
