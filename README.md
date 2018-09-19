@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/NaimishTrivedi/FBToast.svg)](https://jitpack.io/#NaimishTrivedi/FBToast)
 # FBToast
 **Custom toast messages.**
 - You can create customizable toast messages with FBToast.
